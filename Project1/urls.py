@@ -7,7 +7,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('',homepage_view, name='homepage'),
     path('contact',contact_view),
+    path('social', social_view),
     path('about',about_view),
-    path('social', social_view)
    
 ]
