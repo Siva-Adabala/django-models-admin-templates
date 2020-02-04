@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{%block content%}
+<html>
+{{request.user}}
+{{ request.user.is_authenticated}}
+<h1>hi, this is siva...........</h1>
+<p>This is a template</p>
+<p>
+    name = {{name}}
+    <br>
+    age = {{age}}
+</p>
+</html>
+
+{% endblock %}
